@@ -18,6 +18,7 @@ describe SearchResult do
       search_result = SearchResult.new("Fire Nation")
 
       expect(search_result.members.count).to eq(20)
+      expect(search_result.members).to be_a(Array)
     end
   end
 end
