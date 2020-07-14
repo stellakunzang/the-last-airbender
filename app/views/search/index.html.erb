@@ -1,1 +1,8 @@
-<h1><%= @search.members.count %> Members of <%= @search.nation %> Nation</h1>
+<h1><%= @members.count %> Members %></h1>
+<% @members.each do |member| %>
+  <ul class="member">
+    <li class="name"><%= member.name %></li>
+    <li class="allies"><%= member.allies %></li>
+    <li class="enemies"><%= member.enemies %></li>
+  </ul>
+<% end %>
