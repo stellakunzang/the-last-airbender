@@ -10,7 +10,7 @@ The four nations are: the Water Tribes, the Earth Kingdom, the Fire Nation, and 
 
 Using an Airbender API, retrieve a sampling of characters for a given Nation, and display the relevant information below.
 
-Bulid your work using TDD and commit your code at intervals of no larger than 15 minutes.
+Build your work using TDD and commit your code at intervals of no larger than 15 minutes.
 
 ```
 As a user,
