@@ -8,12 +8,12 @@ class SearchResult
     @nation = format_nation(nation_name)
   end
 
-  def format_name(nation_name)
-    nation_name.split("_")[1]
+  def format_name(name)
+    name.split("_")[1]
   end
 
-  def format_nation(nation_name)
-    nation_name.split("_")[0]
+  def format_nation(nation)
+    nation.split("_")[0]
   end
 
   def members
